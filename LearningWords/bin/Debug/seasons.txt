@@ -1,4 +1,0 @@
-winter,зима
-spring!весна
-summer,літо
-autumn,осінь

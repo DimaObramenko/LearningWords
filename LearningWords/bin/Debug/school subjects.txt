@@ -1,9 +1,0 @@
-maths!математика
-english!англійська
-history,історія
-geography,географія
-music,музика
-art,малювання
-physics!фізика
-literature,література
-biology,біологія

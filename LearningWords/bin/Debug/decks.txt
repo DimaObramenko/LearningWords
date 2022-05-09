@@ -1,5 +1,0 @@
-animals
-jobs
-seasons
-school subjects
-furniture

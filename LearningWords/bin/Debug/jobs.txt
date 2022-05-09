@@ -1,8 +1,0 @@
-doctor!лікар
-chef,повар
-farmer,фермер
-teacher,вчитель
-firefighter,пожежник
-builder,будівник
-artist,артист
-postman!листоноша
