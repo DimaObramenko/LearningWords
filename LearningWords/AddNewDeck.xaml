@@ -1,0 +1,18 @@
+﻿<Window x:Class="LearningWords.AddNewDeck"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LearningWords"
+        mc:Ignorable="d"
+        Title="AddNewDeck" Height="200" Width="300">
+    <Grid Background="#d9f4f4">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" VerticalAlignment="Center" FontSize="18"  Content="Enter deck name:" Margin="10,35,130,16"/>
+        <TextBox x:Name="DeckNameTextBox" Grid.Row="0" Height="34" VerticalAlignment="Center" FontSize="18" Margin="160,37,20,14"/>
+        <Button Click="Create_Deck_Click" Grid.Row="1" FontSize="16" VerticalAlignment="Center" HorizontalAlignment="Center" Background="#7ddbdd" BorderBrush="#478c8e" Height="40" Width="140" Margin="76,18,76,26">Create deck</Button>
+    </Grid>
+</Window>

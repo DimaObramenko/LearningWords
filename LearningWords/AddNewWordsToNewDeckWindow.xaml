@@ -1,0 +1,22 @@
+﻿<Window x:Class="LearningWords.AddNewWordsToNewDeckWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LearningWords"
+        mc:Ignorable="d"
+        Title="AddNewWordsToNewDeckWindow" Height="300" Width="400">
+    <Grid Background="#d9f4f4">
+        <Grid.RowDefinitions>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" VerticalAlignment="Center" FontSize="18"  Margin="20 0 180 0" Content="Word in english:"/>
+        <TextBox x:Name="EnglishWord" Grid.Row="0" VerticalAlignment="Center" FontSize="18" Margin="220 0 20 0"/>
+        <Label Grid.Row="1" VerticalAlignment="Center" FontSize="18"  Margin="20 0 180 0" Content="Translation (ukrainian):"/>
+        <TextBox x:Name="UkrainianWord" Grid.Row="1" VerticalAlignment="Center" FontSize="18" Margin="220 0 20 0"/>
+        <Button Click="Go_To_Main_Menu_Button_Click" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Left" Background="#b8ebec" BorderBrush="#6a9b9c" Height="24" Width="150" Margin="20">Go to learning words</Button>
+        <Button Click="Add_Word_Button_Click" Grid.Row="2" VerticalAlignment="Center" HorizontalAlignment="Right" Background="#7ddbdd" BorderBrush="#478c8e" Height="24" Width="150" Margin="20">Add word</Button>
+    </Grid>
+</Window>

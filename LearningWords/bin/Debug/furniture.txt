@@ -1,0 +1,8 @@
+sofa,шафа
+chair,стілець
+armchair,крісло
+bed,ліжко
+stairs!сходи
+carpet,килим
+door,двері
+table,стіл

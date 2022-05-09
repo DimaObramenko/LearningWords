@@ -1,0 +1,12 @@
+fox!лисиця
+wolf!вовк
+frog,жаба
+tiger,тигр
+elephant,слон
+bear,ведмідь
+rabbit,кролик
+camel!верблюд
+leopard,леопард
+lion,лев
+kangaroo,кенгуру
+monkey,мавпа
