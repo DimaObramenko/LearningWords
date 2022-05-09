@@ -1,0 +1,22 @@
+﻿<Window x:Class="LearningWords.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LearningWords"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="400">
+    <Grid>
+        <Border Margin="15" Background="#d9f4f4"  Padding="40" CornerRadius="20">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="50" Color="#4b9797" ShadowDepth="5"></DropShadowEffect>
+            </Border.Effect>
+        </Border>
+        <Label HorizontalAlignment="Center" FontWeight="Bold" FontSize="34" Margin="96,52,96,304" Width="200">Select deck</Label>
+        <ComboBox x:Name="MyComboBox" HorizontalAlignment="Center" Width="200" FontSize="20" Margin="0 150 0 220"></ComboBox>
+        <Button  FontSize="16" Background="#7ddbdd" Click="Learn_Words_Button_Click" HorizontalAlignment="Center" Height="50" Width="120" Margin="100 210 100 100">Learn words</Button>
+        <Button Background="#b8ebec" Click="Create_Deck_Button_Click" HorizontalAlignment="Right" Width="80" Height="34" VerticalAlignment="Bottom" Margin="40 55">Create deck</Button>
+        <Label x:Name="NumberOfWords" FontSize="16" HorizontalAlignment="Left" Width="50" Height="40"  VerticalAlignment="Bottom" Margin="150,0,0,50" />
+        <Label HorizontalAlignment="Left" Width="110" Height="40" FontSize="16" VerticalAlignment="Bottom" Margin="40 50">Your progress:</Label>
+    </Grid>
+</Window>
